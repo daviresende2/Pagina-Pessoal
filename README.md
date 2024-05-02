@@ -1,3 +1,4 @@
-MINHA PÁGINA PESSOAL (EM ANDAMENTO)
+MINHA PÁGINA PESSOAL.
 
-Preciso incluir Javascript e links.
+Davi Almeida Resende 23084883-2
+Entrega Portfólio.
