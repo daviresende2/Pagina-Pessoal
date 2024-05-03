@@ -1,14 +1,21 @@
-/* ESTILO GERAL */
 * {
     margin: 0;
-    padding: 0;
+    padding: 0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
 body {
     background-color: #000;
-    height: 100vh;
+    height: 100%;
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 10;
+        border-radius: 50%;
+        width: 110px;
+        height: 110px;
 }
 
 .interface {
@@ -47,7 +54,6 @@ form .btn-enviar input:hover {
     transform: scale(1.05);
 }
 
-/* ESTILO DO CABEÇALHO */
 header {
     padding: 40px 4%;
 }
@@ -78,8 +84,6 @@ header nav.menu-desktop ul li {
     display: inline-block;
     padding: 0 40px;
 }
-
-/* ESTILO DO MENU MOBILE */
 
 .btn-abrir-menu{
     display: none;
@@ -148,7 +152,6 @@ header nav.menu-desktop ul li {
     display: none;
 }
 
-/* ESTILO DO TOPO DO SITE */
 section.topo-do-site {
     padding: 40px 4%;
 }
@@ -190,7 +193,6 @@ section.topo-do-site .flex {
     }
 }
 
-/* ESTILO DAS ESPECIALIDADES */
 section.especiliadades {
     padding: 40px 4%;
 }
@@ -264,7 +266,6 @@ section.sobre .flex {
     transition: .2s;
 }
 
-/* ESTILO DO PORTFÓLIO */
 section.portfolio {
     padding: 80px 4%;
     box-shadow: 0 0 40px 10px #ffffff1d;
@@ -312,7 +313,6 @@ section.portfolio .flex {
     opacity: 1;
 }
 
-/* ESTILO DO FORMULÁRIO DE CONTATO */
 section.formulario {
     padding: 80px 4%;
 }
@@ -358,8 +358,6 @@ form .btn-enviar input {
     transition: .2s;
 }
 
-/* ESTILO DO RODAPÉ */
-
 footer {
     padding: 40px 4%;
     box-shadow: 0 0 40px 10px #ffffff1d;
@@ -388,7 +386,6 @@ footer .line-footer p a {
 
 @media screen and (max-width: 1020px) {
 
-    /* CLASSES GERAIS */
     .flex {
         flex-direction: column;
     }
@@ -402,7 +399,6 @@ footer .line-footer p a {
         line-height: 30px;
     }
 
-    /* CABEÇALHO */
     .menu-desktop,
     .btn-contato {
         display: none;
@@ -431,7 +427,6 @@ footer .line-footer p a {
         padding: 40px 8%;
     }
 
-    /* SOBRE */
     section.sobre {
         padding: 80px 8%;
     }
@@ -450,7 +445,6 @@ footer .line-footer p a {
         width: 100%;
     }
 
-    /* PORTFÓLIO */
     section.portfolio {
         padding: 80px 8%;
     }
@@ -465,7 +459,6 @@ footer .line-footer p a {
        gap: 60px;
     }
 
-    /* RODAPÉ */
     footer .flex {
         flex-direction: column;
         gap: 30px;
@@ -474,4 +467,5 @@ footer .line-footer p a {
     footer .line-footer {
         text-align: center;
     }
+}
 }
