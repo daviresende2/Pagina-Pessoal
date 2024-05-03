@@ -8,32 +8,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="styles.css">
-    <script src="menu.js"></script>
+    <script src="scriptjs"></script>
 
-    <title>Davi Resende</title>
+    <title>Davi Resende - Página Pessoal</title>
+    <link rel="icon" href="favicon.ico" type="image/png">
+
 </head>
 <body>
-    
     <header>
+        <div class="btn-abrir-menu" id="btn-menu">
+            <i class="bi bi-list"></i>
+        </div>
+        
         <div class="interface">
-            <div class="logo">
-                <a href="#">
-                </a>
-            </div>
+            <a href="#começo">
+            <img src="_745f8292-aa65-4052-b6b5-8607122f4694.jpg"</a>"
 
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Contato</a></li>
-                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#começo">Sobre</a></li>
                 </ul>
             </nav>
 
             <div class="btn-contato">
-                <a href="https://mail.google.com/mail/u/0/?ogbl#inbox">
+                <a href="https://mail.google.com/mail/u/0/?ogbl#inbox"target="_blank"> 
                     <button>Contato</button>
                 </a>
-            </div><!--btn-contato-->
+            </div>
 
             <div class="btn-abrir-menu" id="btn-menu">
                 <i class="bi bi-list"></i>
@@ -46,15 +49,15 @@
 
                 <nav>
                     <ul>
-                        <li><a href="#">Início</a></li>
-                        <li><a href="#">Contato</a></li>
-                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                        <li><a href="#começo">Sobre</a></li>
                     </ul>
                 </nav>
 
-            </div><!--menu-mobile-->
+            </div>
             <div class="overlay-menu" id="overlay-menu"></div>
-        </div><!--interface-->
+        </div>
     </header>
 
     <main>
@@ -66,20 +69,22 @@
                         <p>Desenvolvedor Web, Aluno de Engenharia de Software e sempre disposto a aprender. Possuo conhecimento em HTML, CSS, PHP, C++, JavaScript e mais. Programador em constante evolução. </p>
 
                         <div class="btn-contato">
-                            <a href="https://github.com/daviresende2">
+                            <a href="https://github.com/daviresende2"target="_blank"> 
                                 <button>Meus Projetos</button>
                             </a>
                         </div>
-                    </div><!--txt-topo-site-->
+                    </div>
 
                     <div class="img-topo-site">
                         <img src="images/pessoa.png" alt="">
-                    </div><!--img-topo-site-->
-                </div><!--flex-->
-            </div><!--interface-->
-        </section><!--topo-do-site-->
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section class="especiliadades">
+            <div id="inicio">
+
             <div class="interface">
                 <h2 class="titulo">MINHAS <span>HABILIDADES.</span></h2>
                 <div class="flex">
@@ -87,61 +92,77 @@
                         <i class="bi bi-code-square"></i>
                         <h3>Desenvolvimento Web</h3>
                         <p>Sou um desenvolvedor especializado na criação de websites utilizando HTML e CSS. Com habilidades sólidas em design e desenvolvimento web, transformo conceitos em realidade digital, criando interfaces elegantes e funcionais.</p>
-                    </div><!--especialidades-box-->
+                    </div>
 
                     <div class="especialidades-box">
                         <i class="bi bi-cart"></i>
                         <h3>Loja online</h3>
                         <p>Dedicado a criar plataformas de comércio eletrônico que proporcionam experiências de compra excepcionais. Inclui conhecimento em C++.</p>
-                    </div><!--especialidades-box-->
+                    </div>
 
                     <div class="especialidades-box">
                         <i class="bi bi-github"></i>
                         <h3>Javascript</h3>
-                        <p>Especialista em JavaScript apaixonado por tornar a web mais dinâmica e interativa. Com profundo conhecimento da linguagem e suas diversas bibliotecas e frameworks, trago vida aos projetos web, desde pequenos scripts até aplicativos web complexos..</p>
-                    </div><!--especialidades-box-->
-                </div><!--flex-->
-            </div><!--interface-->
-        </section><!--especiliadades-->
+                        <p>Eterno aprendiz em JavaScript, apaixonado por tornar a web mais dinâmica e interativa. Com conhecimento da linguagem e suas diversas bibliotecas e frameworks, trago vida aos projetos web, desde pequenos scripts até aplicativos web complexos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section class="sobre">
+            <div id="começo">
+
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
                         <img src="images/foto.png" alt="">
-                    </div><!--img-sobre-->
+                    </div>
 
                     <div class="txt-sobre">
                         <h2>MUITO PRAZER, <span>SOU DAVI RESENDE.</span></h2>
                         <p>Atualmente cursando Engenharia de Software na UniCesumar, planejando construir carreira e evoluir ainda mais nas áreas onde possuo conhecimento.</p>
                         <p>Aqui você vai encontrar meu projetos, onde buscar contato e um pouco mais sobre mim.</p>
                         <div class="btn-social">
-                            <a href="https://instagram.com/daviresende1"><button><i class="bi bi-instagram"></i></button></a>
-                            <a href="https://github.com/daviresende2"><button><i class="bi bi-github"></i></button></a>
-                        </div><!--btn-social-->
-                    </div><!--txt-sobre-->
-                </div><!--flex-->
-            </div><!--interface-->
-        </section><!--sobre-->
+                            <a href="https://instagram.com/daviresende1"target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://github.com/daviresende2"target="_blank"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.linkedin.com/in/davi-resende-b143a127b"target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
 
-        <section class="portfolio">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="especiliadades">
+            <div id="começo">
+                <a href="https://github.com/daviresende2"target="_blank"> 
             <div class="interface">
                 <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
                 <div class="flex">
-                    <div class="img-port" style="background-image: url(images/imagem.jpg);">
-                        <div class="overlay">ToDoList</div>
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Página Pessoal</h3>
+                        <p>Meu Portfólio Pessoal, em andamento, com objetivo em me conhecer profissionalmente, atrelado aos links das minhas redes, direcionamento aos repositórios e meu contato.</p>
                     </div>
-                    <div class="img-port" style="background-image: url(images/imagem.jpg);">
-                        <div class="overlay">Projeto de Gestão Escolar</div>
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-github"></i>
+                        <h3>Lista de Tarefas - ToDoList</h3>
+                        <p>Um Projeto de uma lista de tarefas com ampla funcionalidade, consistindo em adicionar uma tarefa e ocasionando em sua edição ou exclusão.</p>
                     </div>
-                    <div class="img-port" style="background-image: url(images/imagem.jpg);">
-                        <div class="overlay">Página Pessoal</div>
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Projeto Gestão Escolar</h3>
+                        <p>Projeto destinado ao cadastro de alunos e suas notas em um sistema escolar para gestão. Feito em grupo com fins acadêmicos.</p>
                     </div>
-                </div><!--flex-->
-            </div><!--interface-->
-        </section><!--portfolio-->
+
+        </section>
 
         <section class="formulario">
+            <div id="contato">
+
             <div class="interface">
                 <h2 class="titulo">FALA <span>COMIGO.</span></h2>
 
@@ -152,8 +173,8 @@
                     <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
                     <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
                 </form>
-            </div><!--interface-->
-        </section><!--formulario-->
+            </div>
+        </section>
 
     </main>
 
@@ -162,18 +183,20 @@
             <div class="line-footer">
                 <div class="flex">
                     <div class="logo-footer">
-                    </div><!--logo-footer-->
+                    </div>
                     <div class="btn-social">
-                        <a href="www.instagram.com/daviresende1"><button><i class="bi bi-instagram"></i></button></a>
-                        <a href="https://github.com/daviresende2"><button><i class="bi bi-github"></i></button></a>
-                    </div><!--btn-social-->
+                        <a href="https://www.instagram.com/daviresende1/#"target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://github.com/daviresende2"target="_blank"><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://www.linkedin.com/in/davi-resende-b143a127b"target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+
+                    </div>
                 </div>
-            </div><!--line-footer-->
+            </div>
 
             <div class="line-footer borda">
-                <p><i class="bi bi-envelope-fill"></i> <a href="mail.google.com">daviresende3322@gmail.com</a></p>
-            </div><!--line-footer-->
-        </div><!--interface-->
+                <p><i class="bi bi-envelope-fill"></i> <a href="https://mail.google.com/mail/u/0/?ogbl#inbox"target=_blank"> daviresende3322@gmail.com</a></p>
+            </div>
+        </div>
     </footer>
 
 </body>
